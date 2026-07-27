@@ -1,36 +1,42 @@
-<<<<<<< HEAD
 # SteamSync
-=======
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+🚧 **Status:** In Active Development
 
-Currently, two official plugins are available:
+Steam Sync is a web application that transforms your Steam library into a social experience. Connect your Steam account, organize your collection, compare libraries with friends, and discover the games you have in common.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Steam has millions of users, but comparing game libraries with friends is surprisingly inconvenient. Steam Sync aims to make discovering shared games, exploring collections, and organizing large libraries simple and enjoyable while serving as a full-stack portfolio project built with modern web technologies.
 
-## React Compiler
+## Planned Features:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 Steam authentication
+- 🎮 Import your entire Steam library
+- 👥 Compare game libraries with friends
+- 🔍 Search and filter by genre, playtime, and platform
+- 📊 Library statistics and insights
+- 📱 Responsive design for desktop and mobile
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Frontend
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- React
+- TypeScript
+- Vite
+- React Router
+- BootStrap
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
->>>>>>> 387f4e6 (Initial Commit)
+### Backend
+
+- Node.js
+- Express
+- Steam Web API
+
+### Database
+
+- PostgreSQL
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
