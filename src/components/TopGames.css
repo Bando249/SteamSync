@@ -1,0 +1,21 @@
+.button{
+    margin-top: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+    
+}
+
+.game-container{
+    display:grid ;
+    grid-template-columns: repeat(5,180px);
+    gap: 15px;
+    
+}

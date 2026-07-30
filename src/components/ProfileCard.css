@@ -1,0 +1,25 @@
+img{
+    padding: 5px
+}
+.box{
+    max-width: 500px;
+    min-width: 100px;
+    padding: 5px
+    
+}
+.list-group-item{
+    color: white;
+    background-color: grey;
+    
+    border-radius: 0
+}
+.list-group{
+    border-radius: 0 0 3px 3px;
+    padding: 5px
+}
+
+.game-section{
+    background-color: black;
+    display: inline-flex;
+    
+}

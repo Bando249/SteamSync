@@ -1,0 +1,11 @@
+.account-page{
+    display:flex
+}
+.top-games{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.profile-card{
+    margin-right: 20px;
+}
