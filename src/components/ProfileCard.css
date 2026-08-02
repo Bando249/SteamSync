@@ -23,3 +23,7 @@ img{
     display: inline-flex;
     
 }
+
+.button{
+    justify-content: center;
+}

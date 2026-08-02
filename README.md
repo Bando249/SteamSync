@@ -23,7 +23,7 @@ Steam has millions of users, but comparing game libraries with friends is surpri
 - TypeScript
 - Vite
 - React Router
-- BootStrap
+- Chakra UI
 
 ### Backend
 
